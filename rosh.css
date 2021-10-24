@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url(fonts/Myriad_Pro_Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MinionPro-Bold";
+    src: url(fonts/Minion\ Pro\ Bold.otf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bell MT";
+    src: url(fonts/bell_mt/) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/Open_Sans/)format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.header {
+    display: block;
+    height: 70px;
+    background-color: #8c0a0d;
+    width: 1300px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 67px;
+    width: 177px;
+    height: 41px;
+    margin-top: 5px;
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    margin-top: 38px;
+
+
+}
+
+.menu li {
+
+    font-size: 14px;
+    display: inline;
+    text-transform: uppercase;
+    font-family: 'MinionPro-Bold''MyriadProRegular';
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: #e1a064;
+}
+
+/*Псевдокласс :nth-child используется для добавления стиля к элементам на основе нумерации в дереве элементов.
+    Порядковый номер дочернего элемента относительно своего родителя. Нумерация начинается с 1, это будет первый элемент в списке.*/
+
+.menu li:nth-child(1) {
+    margin-left: 369px;
+}
+
+.menu li:nth-child(2) {
+
+    margin-left: 30px;
+
+}
+
+.menu li:nth-child(3) {
+
+    margin-left: 32px;
+}
+
+.menu li:nth-child(4) {
+
+    margin-left: 34px;
+}
+
+.menu li:nth-child(5) {
+
+    margin-left: 31px;
+}
+
+.menu li:nth-child(6) {
+
+    margin-left: 32px;
+
+}
+
+.menu li:nth-child(7) {
+
+    margin-left: 70px;
+}
+
+.flag {
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 38px;
+}
+
+
+.main {
+    position: relative;
+    background-image: url(fon.png);
+    width: 1300px;
+    height: 753px;
+
+}
+
+.shadow {
+    /* полупрозрачный фон*/
+    position: absolute;
+    background-image: url(image/rect.png);
+    width: 1300px;
+    height: 753px;
+
+
+
+
+}
+
+.slider {
+    background-image: url(image/slider.png);
+
+    border-style: solid;
+    border-color: #35040c;
+    width: 1170px;
+    height: 335px;
+    margin: 26px 65px 30px 65px;
+}
+
+.slider h1 {
+    width: 455px;
+    height: 54px;
+    font-family: "Bell MT""OpenSans";
+    color: #35040c;
+    font-size: 55px;
+    margin-left: 360px;
+    margin-top: 30px;
+}
+
+.press {
+    width: 189px;
+    height: 42px;
+    border-radius: 10px;
+    background: #f6cc79;
+    box-shadow: 0 5px 0 #bf670d;
+    /* Параметры тени */
+    margin-left: 493px;
+    margin-top: 24px;
+}
+
+.press p {
+    text-align: center;
+    padding-top: 11px;
+}
+
+.press a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #030303;
+    font-weight: bold;
+
+}
+
+.right {
+
+    position: absolute;
+    margin-left: 28px;
+    top: 155px;
+
+}
+
+.left {
+    position: absolute;
+    margin-left: 1087px;
+    top: 152px;
+
+}
+
+
+.dots {
+    margin-top: 129px;
+    margin-left: 555px;
+}
+
+.dot1 {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.dot2 {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #bf670d;
+    margin-right: 9px;
+    margin-left: 9px;
+
+}
+
+.informacion {
+    font-family: 'MinionPro-Bold''MyriadProRegular';
+
+}
+
+.informacion span {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.txt1 {
+    position: absolute;
+    margin-left: 65px;
+
+}
+
+.txt2 {
+    position: absolute;
+    left: 363px;
+
+}
+
+.txt3 {
+    position: absolute;
+    margin-left: 662px;
+
+}
+
+.txt4 {
+
+    position: absolute;
+    margin-left: 957px;
+}
+
+.informacion p {
+    font-size: 16;
+    margin-top: 130px;
+    white-space: nowrap;
+}
+
+.info1 {
+    position: absolute;
+    margin-left: 65px;
+
+}
+
+.info2 {
+    position: absolute;
+    margin-left: 362px;
+
+
+}
+
+.info3 {
+    position: absolute;
+    margin-left: 660px;
+
+
+}
+
+.info4 {
+    position: absolute;
+    margin-left: 957px;
+}
+
+.footer {
+    position: absolute;
+    width: 1300px;
+    height: 70px;
+    background-color: #8c0a0d;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f8b168;
+    font-size: 14px;
+    font-family: 'MinionPro-Bold''MyriadProRegular';
+
+}
+
+.web {
+
+    margin-top: 36px;
+    margin-left: 67px;
+    font-size: 14px;
+    position: absolute;
+}
+
+
+.direction {
+    margin-left: 361px;
+    position: absolute;
+    margin-top: 12px;
+
+}
+
+.tel {
+    margin-left: 658px;
+    position: absolute;
+    margin-top: 12px;
+    text-align: right;
+}
+
+.mail {
+    position: absolute;
+    margin-left: 957px;
+    margin-top: 12px;
+    color: #f8b168;
+
+}
+
+.facebook {
+    margin-left: 1164px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 21px;
+
+}
+
+.vk {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 21px;
+    margin-left: 1205px;
+
+
+}
